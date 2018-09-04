@@ -1,0 +1,6 @@
+#profilePhoto {
+     /*position: fixed;*/
+     background-image: url("Headshot2.jpeg");
+     width: 100%;
+     height: auto;
+ }
