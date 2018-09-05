@@ -1,7 +1,11 @@
 body{
-     background-color: grey;
+    background-color: grey;
     min-width: 500px;
+    font-family: 'Monda', sans-serif;
  }
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
 .active{
     font-weight: bold;
     font-size: larger;
