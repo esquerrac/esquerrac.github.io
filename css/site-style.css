@@ -1,5 +1,6 @@
 body{
      background-color: grey;
+    min-width: 500px;
  }
 .active{
     font-weight: bold;
@@ -16,7 +17,7 @@ body{
     position: fixed;
 }
 .card{
-    max-width: 40%;
+    max-width: 43%;
     margin: 2em;
     color: white;
 }
@@ -41,4 +42,12 @@ body{
 a {
     color: lightgrey;
 }
+@media screen and (max-width:768px){
+    .card{
+        min-width: 300px;
+        opacity: 0.5;
+    }
+
+}
+
 
