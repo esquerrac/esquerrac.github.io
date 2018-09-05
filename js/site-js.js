@@ -6,7 +6,7 @@ $("#homeButton").click(function(){
     $("#projectsButton").removeClass("active");
     $("#resumeButton").removeClass("active");
     $("#contactButton").removeClass("active");
-    $(".home").css("display", "block");
+    $(".home").fadeToggle(500);
     $(".experience").css("display", "none");
     $(".skills").css("display", "none");
     $(".projects").css("display", "none");
@@ -23,7 +23,7 @@ $("#experienceButton").click(function(){
     $("#resumeButton").removeClass("active");
     $("#contactButton").removeClass("active");
     $(".home").css("display", "none");
-    $(".experience").css("display", "block");
+    $(".experience").fadeToggle(500);
     $(".skills").css("display", "none");
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
@@ -39,7 +39,7 @@ $("#skillsButton").click(function(){
     $("#contactButton").removeClass("active");
     $(".home").css("display", "none");
     $(".experience").css("display", "none");
-    $(".skills").css("display", "block");
+    $(".skills").fadeToggle(500);
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
@@ -55,7 +55,7 @@ $("#projectsButton").click(function(){
     $(".home").css("display", "none");
     $(".experience").css("display", "none");
     $(".skills").css("display", "none");
-    $(".projects").css("display", "block");
+    $(".projects").fadeToggle(500);
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
 });
@@ -71,7 +71,7 @@ $("#resumeButton").click(function(){
     $(".experience").css("display", "none");
     $(".skills").css("display", "none");
     $(".projects").css("display", "none");
-    $(".resume").css("display", "block");
+    $(".resume").fadeToggle(500);
     $(".contact").css("display", "none");
 });
 // FUNCTIONS FOR CONTACT BUTTON
@@ -87,5 +87,16 @@ $("#contactButton").click(function(){
     $(".skills").css("display", "none");
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
-    $(".contact").css("display", "block");
+    $(".contact").fadeToggle(500);
 });
+// PAGE LOAD CONTENT FUNCTIONS
+$(document).ready(setTimeout(function () {
+    $("#homeName").fadeToggle(500);
+}, 1000));
+$(document).ready(setTimeout(function () {
+    $("#homePar1").fadeIn(500);
+}, 2000));
+$(document).ready(setTimeout(function () {
+    $("#homePar2").fadeIn(500);
+}, 3000));
+

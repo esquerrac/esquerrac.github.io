@@ -1,6 +1,6 @@
 body{
-    background-color: grey;
-}
+     background-color: grey;
+ }
 .active{
     font-weight: bold;
     font-size: larger;
@@ -19,10 +19,10 @@ body{
     color: white;
 }
 .home{
-
+    display: none;
 }
 .experience{
-display: none;
+    display: none;
 }
 .skills{
     display: none;
@@ -39,3 +39,4 @@ display: none;
 a {
     color: lightgrey;
 }
+
