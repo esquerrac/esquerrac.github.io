@@ -6,16 +6,18 @@ body{
     font-size: larger;
 }
 #photo {
-    max-width: 100%;
-    min-width: 1024px;
-    height: auto;
+    /*max-width: 100%;*/
+    /*min-width: 1300px;*/
+    /*height: auto;*/
+    /*min-height: 866px;*/
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
     position: fixed;
 }
 .card{
     max-width: 40%;
     margin: 2em;
-}
-.card {
     color: white;
 }
 .home{
