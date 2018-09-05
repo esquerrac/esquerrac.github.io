@@ -1,1 +1,1 @@
-Personal website featuring resume and portfolio of projects undertaken during burdgeoning career as a software developer.
+As I start a burdgeoning career as a software developer, this site will hopefull contribute to showcasing my skills to prospective employers and peers.  Let me know what you think!
