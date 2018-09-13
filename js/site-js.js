@@ -92,11 +92,11 @@ $("#contactButton").click(function(){
 // PAGE LOAD CONTENT FUNCTIONS
 $(document).ready(setTimeout(function () {
     $("#homeName").fadeToggle(500);
-}, 1000));
+}, 500));
 $(document).ready(setTimeout(function () {
     $("#homePar1").fadeIn(500);
-}, 1500));
+}, 1000));
 $(document).ready(setTimeout(function () {
     $("#homePar2").fadeIn(500);
-}, 2000));
+}, 1500));
 
