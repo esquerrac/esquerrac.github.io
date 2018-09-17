@@ -6,12 +6,15 @@ $("#homeButton").click(function(){
     $("#projectsButton").removeClass("active");
     $("#resumeButton").removeClass("active");
     $("#contactButton").removeClass("active");
-    $(".home").fadeToggle(250);
+    $(".home").fadeToggle(750);
     $(".experience").css("display", "none");
     $(".skills").css("display", "none");
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
+    $("#headshot").fadeIn(2000);
+    $("#keyboard").fadeOut(2000);
+
 });
 
 // FUNCTIONS FOR EXPERIENCE BUTTON
@@ -23,11 +26,14 @@ $("#experienceButton").click(function(){
     $("#resumeButton").removeClass("active");
     $("#contactButton").removeClass("active");
     $(".home").css("display", "none");
-    $(".experience").fadeToggle(250);
+    $(".experience").fadeToggle(750);
     $(".skills").css("display", "none");
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
+    $("#headshot").fadeOut(2000);
+    $("#keyboard").fadeIn(2000);
+
 });
 // FUNCTIONS FOR SKILLS BUTTON
 $("#skillsButton").click(function(){
@@ -39,10 +45,13 @@ $("#skillsButton").click(function(){
     $("#contactButton").removeClass("active");
     $(".home").css("display", "none");
     $(".experience").css("display", "none");
-    $(".skills").fadeToggle(250);
+    $(".skills").fadeToggle(750);
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
+    $("#headshot").fadeOut(2000);
+    $("#keyboard").fadeIn(2000);
+
 });
 // FUNCTIONS FOR PROJECTS BUTTON
 $("#projectsButton").click(function(){
@@ -55,9 +64,12 @@ $("#projectsButton").click(function(){
     $(".home").css("display", "none");
     $(".experience").css("display", "none");
     $(".skills").css("display", "none");
-    $(".projects").fadeToggle(250);
+    $(".projects").fadeToggle(750);
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
+    $("#headshot").fadeOut(2000);
+    $("#keyboard").fadeIn(2000);
+
 });
 // FUNCTIONS FOR RESUME BUTTON
 $("#resumeButton").click(function(){
@@ -71,8 +83,11 @@ $("#resumeButton").click(function(){
     $(".experience").css("display", "none");
     $(".skills").css("display", "none");
     $(".projects").css("display", "none");
-    $(".resume").fadeToggle(250);
+    $(".resume").fadeToggle(750);
     $(".contact").css("display", "none");
+    $("#headshot").fadeOut(2000);
+    $("#keyboard").fadeIn(2000);
+
 });
 // FUNCTIONS FOR CONTACT BUTTON
 $("#contactButton").click(function(){
@@ -87,16 +102,18 @@ $("#contactButton").click(function(){
     $(".skills").css("display", "none");
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
-    $(".contact").fadeToggle(250);
+    $(".contact").fadeToggle(750);
+    $("#headshot").fadeOut(2000);
+    $("#keyboard").fadeIn(2000);
 });
 // PAGE LOAD CONTENT FUNCTIONS
 $(document).ready(setTimeout(function () {
-    $("#homeName").fadeToggle(500);
+    $("#homeName").fadeToggle(1000);
 }, 500));
 $(document).ready(setTimeout(function () {
-    $("#homePar1").fadeIn(500);
+    $("#homePar1").fadeIn(1000);
 }, 1000));
 $(document).ready(setTimeout(function () {
-    $("#homePar2").fadeIn(500);
+    $("#homePar2").fadeIn(1000);
 }, 1500));
 
