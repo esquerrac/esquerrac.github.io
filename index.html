@@ -6,211 +6,275 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/site-style.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Monda" rel="stylesheet">
+    <link rel="stylesheet" href="css/site-style.css">
 </head>
 <body>
-<div class="container-fluid">
 
-    <!------------------------NAVIGATION ELEMENTS------------------------->
+<!------------------------NAVIGATION ELEMENTS------------------------->
 
-    <nav class="navbar navbar-expand sticky-top navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse sm-justify-content-center" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a id="homeButton" class="nav-item nav-link active" href="#">Home</a>
-                <a id="experienceButton" class="nav-item nav-link" href="#">Experience</a>
-                <a id="skillsButton" class="nav-item nav-link" href="#">Skills</a>
-                <a id="projectsButton" class="nav-item nav-link" href="#">Projects</a>
-                <a id="resumeButton" class="nav-item nav-link" href="#">Resum&eacute;</a>
-                <a id="contactButton" class="nav-item nav-link" href="#">Contact</a>
-            </div>
+<nav class="navbar navbar-expand sticky-top navbar-dark bg-dark mx-0">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse sm-justify-content-center row-sm" id="navbarNavAltMarkup">
+        <div class="navbar-nav col-sm-2">
+            <a id="homeButton" class="nav-item nav-link active mx-auto" href="#">Home</a>
         </div>
-    </nav>
-    <div>
-        <img id="headshot" src="images/Headshot2.jpeg">
-        <img id="keyboard" src="images/keyboard.jpg">
+        <div class="navbar-nav col-sm-2">
+            <a id="experienceButton" class="nav-item nav-link mx-auto" href="#">Experience</a>
+        </div>
+        <div class="navbar-nav col-sm-2">
+            <a id="skillsButton" class="nav-item nav-link mx-auto" href="#">Skills</a>
+        </div>
+        <div class="navbar-nav col-sm-2">
+            <a id="projectsButton" class="nav-item nav-link mx-auto" href="#">Projects</a>
+        </div>
+        <div class="navbar-nav col-sm-2">
+            <a id="resumeButton" class="nav-item nav-link mx-auto" href="#">Resum&eacute;</a>
+        </div>
+        <div class="navbar-nav col-sm-2">
+            <a id="contactButton" class="nav-item nav-link mx-auto" href="#">Contact</a>
+        </div>
     </div>
-    <!------------------------------HOME CLASS CONTENT---------------------------->
+</nav>
+<div>
+    <img id="keyboard" src="images/keyboard.jpg">
+</div>
 
-    <div class="card home bg-dark" id="homeName">
+
+<!------------------------------MY EVER PRESENT VISAGE---------------------------->
+
+<div class="d-none d-lg-block">
+    <img id="headshot" src="images/Headshot2.jpeg">
+</div>
+
+<!------------------------------HOME CLASS CONTENT---------------------------->
+<div class="container-fluid row">
+    <div class="card home bg-dark col-sm-11 d-lg-none" id="otherHeadshotBox">
+        <div class="card-body">
+            <p><img id="otherHeadshot" src="images/Headshot2.jpeg"></p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid row">
+    <div class="card home bg-dark col-sm-11 col-lg-6" id="homeName">
         <div class="card-body">
             <h4>Chris Esquerra</h4>
         </div>
     </div>
-    <div class="card home bg-dark" id="homePar1">
+</div>
+<div class="container-fluid row">
+    <div class="card home bg-dark col-sm-11 col-lg-6" id="homePar1">
         <div class="card-body">
             <h4>A software developer with over 10 years of military service focused on
                 delivering, marketing, and managing healthcare, I bring a background centered
                 on multidisciplinary teamwork and collaboration to the tech industry.</h4>
         </div>
     </div>
-    <div class="card home bg-dark" id="homePar2">
+</div>
+<div class="container-fluid row">
+    <div class="card home bg-dark col-sm-11 col-lg-6" id="homePar2">
         <div class="card-body">
             <h4> Through prioritizing the client experience, I aim to grow myself and those
                 around me with focus squarely on the outcomes for both internal and external
                 customers to develop the highest quality product possible on any given project.</h4>
         </div>
     </div>
+</div>
 
-    <!-------------------------EXPERIENCE CLASS CONTENT-------------------------->
 
+<!-------------------------EXPERIENCE CLASS CONTENT-------------------------->
 
-    <div class="card experience bg-dark">
+<div class="container-fluid row">
+    <div class="card experience bg-dark col-sm-11 col-lg-6">
         <div class="card-header">
-            <h4>Healthcare Services Manager</h4>
-            <p>Joint Base San Antonio, Texas</p>
-            <h5>March 2013 - May 2016</h5>
+            <h3>Healthcare Services Manager</h3>
+            <h4>Joint Base San Antonio, Texas</h4>
         </div>
         <div class="card-body">
+            <h5>March 2013 - May 2016</h5>
             <p>Managed intervention and prevention services to over 60k beneficiaries in the Department of
                 Defense's largest family maltreatment program worldwide.<br>
                 Supervised and ensured educational currency of 35 geographically separated staff members
-                in accordance with federal and healthcare accreditation regulations.</p>
+                in accordance with federal and healthcare accreditation regulations by orchestrating or conducting
+                required continuing education classes.</p>
         </div>
     </div>
-    <div class="card experience bg-dark">
+</div>
+<div class="container-fluid row">
+    <div class="card experience bg-dark col-sm-11 col-lg-6">
         <div class="card-header">
-            <h4>Health Education Specialist</h4>
-            <p>Osan Air Base, Republic of Korea</p>
+            <h3>Health Services Marketing</h3>
+            <h4>Osan Air Base, Republic of Korea</h4>
+        </div>
+        <div class="card-body">
             <h5>February 2012 - March 2013</h5>
-        </div>
-        <div class="card-body">
             <p>Created and distributed mental health, substance abuse, and family violence prevention educational
-                content
-                to over 20 squadrons of active duty and civilian personnel by conducting group classes, formal
-                theater presentations, and live radio broadcasts. </p>
+                content to over 20 squadrons of active duty and civilian personnel by conducting group classes, formal
+                theater presentations, and live radio broadcasts at several locations in country. </p>
         </div>
     </div>
-    <div class="card experience bg-dark">
+</div>
+<div class="container-fluid row">
+    <div class="card experience bg-dark col-sm-11 col-lg-6">
         <div class="card-header">
-            <h4>Substance Abuse Counselor</h4>
-            <p>Offutt Air Force Base, Nebraska</p>
-            <h5>June 2010 - February 2012</h5>
+            <h3>Substance Abuse Counselor</h3>
+            <h4>Offutt Air Force Base, Nebraska</h4>
         </div>
         <div class="card-body">
+            <h5>June 2010 - February 2012</h5>
             <p>Provided direct counseling services to servicemembers diagnosed with substance abuse disorders
                 and those with substance related incidents. Coordinated care between several facilities to ensure
-                continuity of care and highest chance of recovery for patients.</p>
+                continuity of care and highest chance of recovery for patients. Additionally cooperated with command
+                personnel in accordance with healthcare privacy laws to provide stable environment for clients
+                returning from higher levels of care to the workcenter.</p>
         </div>
     </div>
-    <div class="card experience bg-dark">
+</div>
+<div class="container-fluid row">
+    <div class="card experience bg-dark col-sm-11 col-lg-6">
         <div class="card-header">
-            <h4>Mental Health Technician</h4>
-            <p>Offutt Air Force Base, Nebraska</p>
-            <h5>March 2008 - June 2010</h5>
+            <h3>Mental Health Technician</h3>
+            <h4>Offutt Air Force Base, Nebraska</h4>
         </div>
         <div class="card-body">
+            <h5>March 2008 - June 2010</h5>
             <p>Manage administrative duties of medical outpatient clinic. Assess new clients and assign to most
                 appropriate services available. Maintained physical and electronic medical record system for over 1,200
                 active and closed cases.</p>
         </div>
     </div>
+</div>
 
-    <!-----------------------SKILLS CLASS CONTENT------------------->
+<!-----------------------SKILLS CLASS CONTENT------------------->
+<div class="container-fluid row">
+    <div class="card skills bg-dark col-sm-4 col-lg-3">
+        <div class="card-body">
+            <h4>HTML</h4>
+        </div>
+    </div>
+    <div class="card skills bg-dark col-sm-4 col-lg-3">
+        <div class="card-body">
+            <h4>CSS</h4>
+        </div>
+    </div>
+</div>
+<div class="container-fluid row">
+    <div class="card skills bg-dark col-sm-4 col-lg-3">
+        <div class="card-body">
+            <h4>Bootstrap Framework</h4>
+        </div>
+    </div>
+    <div class="card skills bg-dark col-sm-4 col-lg-3">
+        <div class="card-body">
+            <h4>Javascript</h4>
+        </div>
+    </div>
+</div>
+<div class="container-fluid row">
+    <div class="card skills bg-dark col-sm-4 col-lg-3">
+        <div class="card-body">
+            <h4>Jquery</h4>
+        </div>
+    </div>
+    <div class="card skills bg-dark col-sm-4 col-lg-3">
+        <div class="card-body">
+            <h4>Java</h4>
+        </div>
+    </div>
+</div>
+<div class="container-fluid row">
+    <div class="card skills bg-dark col-sm-4 col-lg-3">
+        <div class="card-body">
+            <h4>MySQL & JDBC</h4>
+        </div>
+    </div>
+    <div class="card skills bg-dark col-sm-4 col-lg-3">
+        <div class="card-body">
+            <h4>Spring Boot</h4>
+        </div>
+    </div>
+</div>
+<div class="container-fluid row">
+    <div class="card skills bg-dark col-sm-4 col-lg-3">
+        <div class="card-body">
+            <h4>Java Enterprise Application</h4>
+        </div>
+    </div>
+    <div class="card skills bg-dark col-sm-4 col-lg-3">
+        <div class="card-body">
+            <h4>Version Control with Git</h4>
+        </div>
+    </div>
+</div>
 
-    <div class="card skills bg-dark">
-        <div class="card-body">
-            <h4>HTML 5</h4>
-        </div>
-    </div>
-    <div class="card skills bg-dark">
-        <div class="card-body">
-            <h4>CSS 3</h4>
-        </div>
-    </div>
-    <div class="card skills bg-dark">
-        <div class="card-body">
-            <h4>Bootstrap 4</h4>
-        </div>
-    </div>
-    <div class="card skills bg-dark">
-        <div class="card-body">
-            <h4>Javascript ES6</h4>
-        </div>
-    </div>
-    <div class="card skills bg-dark">
-        <div class="card-body">
-            <h4>Jquery Version 3</h4>
-        </div>
-    </div>
-    <div class="card skills bg-dark">
-        <div class="card-body">
-            <h4>Instruction</h4>
-            <p>With experience teaching English, Hindi,
-                and Korean languages, I have a firm grasp on
-                the hurdles many learners face when taking up
-                a new skill</p>
-        </div>
-    </div>
-    <div class="card skills bg-dark">
-        <div class="card-body">
-            <h4>Employee Development</h4>
-            <p>Drawing from years of supervisory
-                experience, I place a priority on lifting up
-                and pushing my peers, subordinates, and supervisors</p>
-        </div>
-    </div>
-    <div class="card skills bg-dark">
-        <div class="card-body">
-            <h4>Public Speaking</h4>
-            <p>Any topic, any forum, I excel at
-                speaking in front of groups large and small</p>
-        </div>
-    </div>
-    <div class="card skills bg-dark">
-        <div class="card-body">
-            <h4>Conflict Resolution</h4>
-            <p>With a background in both supervision
-                and counseling, I am adept at deescalating
-                situations and finding common ground between
-                opposing parties</p>
-        </div>
-    </div>
+<!-------------------------PROJECTS CLASS CONTENT-------------------------->
 
-    <!-------------------------PROJECTS CLASS CONTENT-------------------------->
-
-    <div class="card projects bg-dark">
+<div class="container-fluid row">
+    <div class="card projects bg-dark col-sm-11 col-lg-6">
+        <div class="card-header">
+            <h4><a href="#">Adlister Project</a></h4>
+        </div>
+        <div class="card-body">
+            <p>Ad site integrating Java EE and MySQL. Allows users to login, post ads for
+                items, as well as browse listings posted by other users. Messaging functionality
+                allows users to communicate with one another to orchestrate exchanges and sales.
+                Also integrates Google Maps to allow for geolocation for items at location defined
+                by users on their profile. It's basically a really cute Craigslist.</p>
+            <p class="text-center"><a href="#"><img class="screenshot" src="images/AdlisterScreenShot.png"></a></p>
+            <p>*Initial build completion expected Dec 2018</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid row">
+    <div class="card projects bg-dark col-sm-11 col-lg-6">
         <div class="card-header">
             <h4><a href="https://esquerrac.github.io/simple-math-game/">Math Practice</a></h4>
         </div>
         <div class="card-body">
             <p>Interactive game designed for my daughter to practice her addition
-                and subtraction.  Could probably help other preschool age kids, too.
+                and subtraction. Could probably help other preschool age kids, too.
                 Additional functionality may be added as she grows up, so long as
-                my coding skills outpace her math abilities.<br>
-                Final Product will be available in multiple languages.</p>
-            <p><a href="https://esquerrac.github.io/simple-math-game/"><img class="screenshot" src="images/MathScreenShot.png"></a></p>
+                my coding skills outpace her math abilities.</p>
+            <p class="text-center"><a href="https://esquerrac.github.io/simple-math-game/"><img class="screenshot"
+                                                                                                src="images/MathScreenShot.png"></a>
+            </p>
         </div>
     </div>
-    <div class="card projects bg-dark">
+</div>
+<div class="container-fluid row">
+    <div class="card projects bg-dark col-sm-11 col-lg-6">
         <div class="card-header">
             <a href="https://esquerrac.github.io/simone/"><h4>Simone</h4></a>
         </div>
         <div class="card-body">
             <p>Javascript based version of a memory game that in no way resembles
-                what may or may not have been an extremely popular game.  Even the
-                name is different!<br>
-            *Initial build in progress*</p>
-            <p><a href="https://esquerrac.github.io/simone/"><img class="screenshot" src="images/SimoneScreenShot.png"></a></p>
+                what may or may not have been an extremely popular game. Even the
+                name is different!</p>
+            <p class="text-center"><a href="https://esquerrac.github.io/simone/"><img class="screenshot"
+                                                                                      src="images/SimoneScreenShot.png"></a>
+            </p>
+            <p>*Project completion expected Nov 2018*</p>
         </div>
     </div>
-    <div class="card projects bg-dark">
+</div>
+<div class="container-fluid row">
+    <div class="card projects bg-dark col-sm-11 col-lg-6">
         <div class="card-header">
             <h4>Movie Database</h4>
         </div>
         <div class="card-body">
             <p>Database project utilizing API style requests to create a
                 single page application that persists across multiple refreshes.
-                Application may one day accept user inputs and updates to front facing data
-                set once I finish the above mentioned Math Game.<br>
-                *Initial build in progress*</p>
+                Application accepts user updates and inputs that reflect on both the data set
+                and presentation layer.</p>
         </div>
     </div>
-    <div class="card projects bg-dark">
+</div>
+<div class="container-fluid row">
+    <div class="card projects bg-dark col-sm-11 col-lg-6">
         <div class="card-header">
             <h4>Coffee Inventory</h4>
         </div>
@@ -221,50 +285,58 @@
                 it's waiting on a page to load every time they interact with it.</p>
         </div>
     </div>
+</div>
 
 
-    <!-------------------------RESUME CLASS CONTENT-------------------------->
+<!-------------------------RESUME CLASS CONTENT-------------------------->
 
-    <div class="card resume bg-dark">
+<div class="container-fluid row">
+    <div class="card resume bg-dark col-sm-11 col-lg-6">
         <div class="card-body">
             <h4>A copy of my resum&eacute; is downloadable here.</h4>
+            <p class="text-center"><a href="ChrisEsquerraResume.pdf" download="ChrisEsquerraResumePDF">
+                <img class="screenshot" src="images/ResumeScreenShot.png"></a></p>
             <p><a href="ChrisEsquerraResume.pdf" download="ChrisEsquerraResumePDF">
                 <button type="button" class="btn btn-dark">Download</button>
             </a></p>
-
         </div>
     </div>
+</div>
 
 
-    <!-------------------------CONTACT CLASS CONTENT-------------------------->
+<!-------------------------CONTACT CLASS CONTENT-------------------------->
 
-    <div class="card contact bg-dark">
+<div class="container-fluid row">
+    <div class="card contact bg-dark col-sm-11 col-lg-6">
         <div class="card-body">
             <p>Mobile: 210-763-6803</p>
         </div>
     </div>
-    <div class="card contact bg-dark">
+</div>
+<div class="container-fluid row">
+    <div class="card contact bg-dark col-sm-11 col-lg-6">
         <div class="card-body">
             <p>email: <a href="mailto:esquerrac@gmail.com">esquerrac@gmail.com</a></p>
         </div>
     </div>
-        <div class="card contact bg-dark">
-            <div class="card-body">
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/chris-esquerra/">in/chris-esquerra/</a>
-                </p>
-            </div>
+</div>
+<div class="container-fluid row">
+    <div class="card contact bg-dark col-sm-11 col-lg-6">
+        <div class="card-body">
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/chris-esquerra/">in/chris-esquerra/</a>
+            </p>
         </div>
-
-
     </div>
+</div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="js/site-js.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="js/site-js.js"></script>
 </body>
 </html>

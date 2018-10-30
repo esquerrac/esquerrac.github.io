@@ -12,8 +12,6 @@ $("#homeButton").click(function(){
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
-    $("#headshot").fadeIn(2000);
-    $("#keyboard").fadeOut(2000);
 
 });
 
@@ -31,8 +29,6 @@ $("#experienceButton").click(function(){
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
-    $("#headshot").fadeOut(2000);
-    $("#keyboard").fadeIn(2000);
 
 });
 // FUNCTIONS FOR SKILLS BUTTON
@@ -49,8 +45,6 @@ $("#skillsButton").click(function(){
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
-    $("#headshot").fadeOut(2000);
-    $("#keyboard").fadeIn(2000);
 
 });
 // FUNCTIONS FOR PROJECTS BUTTON
@@ -67,8 +61,6 @@ $("#projectsButton").click(function(){
     $(".projects").fadeToggle(750);
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
-    $("#headshot").fadeOut(2000);
-    $("#keyboard").fadeIn(2000);
 
 });
 // FUNCTIONS FOR RESUME BUTTON
@@ -85,8 +77,6 @@ $("#resumeButton").click(function(){
     $(".projects").css("display", "none");
     $(".resume").fadeToggle(750);
     $(".contact").css("display", "none");
-    $("#headshot").fadeOut(2000);
-    $("#keyboard").fadeIn(2000);
 
 });
 // FUNCTIONS FOR CONTACT BUTTON
@@ -103,13 +93,18 @@ $("#contactButton").click(function(){
     $(".projects").css("display", "none");
     $(".resume").css("display", "none");
     $(".contact").fadeToggle(750);
-    $("#headshot").fadeOut(2000);
-    $("#keyboard").fadeIn(2000);
+
 });
 // PAGE LOAD CONTENT FUNCTIONS
 $(document).ready(setTimeout(function () {
     $("#homeName").fadeToggle(1000);
 }, 500));
+$(document).ready(setTimeout(function () {
+    $("#headshot").fadeToggle(1000);
+}, 0));
+$(document).ready(setTimeout(function () {
+    $("#otherHeadshotBox").fadeIn(1000);
+}, 0));
 $(document).ready(setTimeout(function () {
     $("#homePar1").fadeIn(1000);
 }, 1000));

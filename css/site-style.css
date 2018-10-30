@@ -1,64 +1,103 @@
-body{
+html {
+    font-size: 1rem;
+}
+body {
     background-color: black;
     min-width: 500px;
     font-family: 'Monda', sans-serif;
- }
+}
+
 p {
     font-family: 'Fira Sans', sans-serif;
 }
-.active{
+
+.navbar {
+    width: 100vw;
+}
+
+.active {
     font-weight: bold;
     font-size: larger;
 }
+
 #headshot {
-    height: 100vh;
-    width: 100vw;
+    display: none;
+    height: auto;
+    width: 700px;
     object-fit: cover;
     position: fixed;
+    right: 50px;
+    top: 100px;
+    border-radius: 150px;
 }
+
 #keyboard {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
     position: fixed;
-    display: none;
     opacity: 0.7;
 }
-.screenshot{
+
+.screenshot {
     width: 30em;
     height: auto;
 }
-.card{
-    max-width: 43%;
+
+.card {
     margin: 2em;
     color: white;
+    border-radius: 10px;
 }
-.home{
+
+.home {
     display: none;
 }
-.experience{
+
+.experience {
     display: none;
 }
-.skills{
+
+.skills {
     display: none;
 }
-.projects{
+
+.projects {
     display: none;
 }
-.resume{
-    display:none;
-}
-.contact{
+
+.resume {
     display: none;
 }
+
+.contact {
+    display: none;
+}
+
 a {
     color: lightgrey;
 }
-@media screen and (max-width:768px){
-    .card{
-        min-width: 300px;
-        opacity: 0.5;
+
+@media screen and (max-width: 1000px) {
+    html{
+        font-size: 1.6rem;
     }
+
+    .navbar {
+        height: 90px;
+    }
+    .screenshot{
+        width: 25em;
+    }
+    .card{
+        min-width: ;
+    }
+    #otherHeadshot{
+        width: 100%;
+        height: auto;
+    }
+
+
 
 }
 
