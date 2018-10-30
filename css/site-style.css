@@ -80,7 +80,7 @@ a {
 
 @media screen and (max-width: 1000px) {
     html{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     .navbar {
@@ -88,9 +88,6 @@ a {
     }
     .screenshot{
         width: 25em;
-    }
-    .card{
-        min-width: ;
     }
     #otherHeadshot{
         width: 100%;
