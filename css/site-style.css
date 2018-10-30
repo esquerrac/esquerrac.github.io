@@ -28,7 +28,7 @@ p {
     position: fixed;
     right: 50px;
     top: 100px;
-    border-radius: 150px;
+    border-radius: 30px;
 }
 
 #keyboard {
@@ -92,6 +92,7 @@ a {
     #otherHeadshot{
         width: 100%;
         height: auto;
+        border-radius: 10px;
     }
 
 
