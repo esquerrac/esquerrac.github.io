@@ -14,9 +14,6 @@ $("#homeButton").click(function(){
     $(".contact").css("display", "none");
     $("#headshot").css("display", "none");
     $("#headshot").fadeToggle(750);
-    // location.reload();
-
-
 });
 
 // FUNCTIONS FOR EXPERIENCE BUTTON
@@ -34,8 +31,8 @@ $("#experienceButton").click(function(){
     $(".resume").css("display", "none");
     $(".contact").css("display", "none");
     $("#headshot").css("display", "none");
-
 });
+
 // FUNCTIONS FOR SKILLS BUTTON
 $("#skillsButton").click(function(){
     $("#homeButton").removeClass("active");
