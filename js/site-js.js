@@ -99,7 +99,7 @@ $("#contactButton").click(function(){
     $(".resume").css("display", "none");
     $(".contact").fadeToggle(750);
     $("#headshot").css("display", "none");
-    $("#headshot").fadeToggle(750);
+    $("#headshot").fadeToggle(760);
 
 });
 // PAGE LOAD CONTENT FUNCTIONS
