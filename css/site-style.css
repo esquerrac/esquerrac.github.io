@@ -75,7 +75,16 @@ p {
 }
 
 a {
-    color: lightgrey;
+    color: darkgrey;
+}
+a:hover {
+    color: rebeccapurple;
+}
+a:visited{
+    color: rebeccapurple;
+}
+#smallExperienceButton{
+    display: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -93,6 +102,12 @@ a {
         width: 100%;
         height: auto;
         border-radius: 10px;
+    }
+    #smallExperienceButton{
+        display: block;
+    }
+    #experienceButton{
+        display:none;
     }
 
 
